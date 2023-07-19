@@ -42,10 +42,75 @@
     }
     /* gamer section sesponsive */
 
-    .gamer-container{
+    .gamer-container, .funny-box-container{
         flex-direction: column;
+    }
+    .funny-box-container{
+        flex-direction: column;
+        align-items: center;
     }
     .gamer-right-bar{
         text-align: center;
+    }
+    .funny-box{
+        width: 400px;
+        /* padding-left: 50px; */
+    }
+    .funny-box > p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .funny-header .funny-title {
+        color: #0B0223;
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .funny-header .funny-description {
+        color: #534C64;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .funny-image .overlay{
+        height: 455px;
+        width: 390px;
+    }
+    .play-instant-main-container{
+        flex-direction: column;
+    }
+    .play-left-bar{
+        text-align: center;
+        padding-right: 115px;
+    }
+    .anyversary-image{
+        width: 70%;
+        margin-left: 80px;
+    }
+    .play-right-bar .girl-taking{
+        width: 30%;
+        right: 66%;
+        top: 72%;
+    }
+    .games-box{
+        width: 40%;
+    }
+    .footer-logo-container{
+        justify-content: center;
+    }
+    .footer-menu-container{
+        grid-template-columns: repeat(3,100px);
+        justify-content: center;
+    }
+    .footer-social-icon{
+        grid-template-columns: repeat(3,80px);
+        gap: 20px;
+        justify-content: center;
+    }
+    .footer-container {
+        flex-wrap: wrap;
+    }
+    .footer-main-container{
+        height: 550px;
     }
 }
