@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,300&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-main-container{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    height: 80px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.nav-container .menu-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.menu-section li{
+    list-style: none;
+}
+.menu-section li a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu-section .follow-us{
+    display: flex;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.follow-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+}
+.follow-section .follow-title{
+    font-weight:600;
+    padding-left: 10px;
+}
+.follow-section .follow-icon{
+    padding-right: 10px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    width: 30%;
+    margin-right:5px ;
+}
+
+/* banner section */
+.banner-main-container{
+    max-width: 1650px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-left-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-bar-item{
+    position: absolute;
+}
+.left-bar-item .play-like{
+    font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.left-bar-item .goat{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left-bar-item li{
+    list-style: none;
+    line-height: 30px;
+}
+.left-bar-img{
+    width: 100%;
+    height: 100%;
+}
+.right-bar-img{
+    width: 100%;
+    height: 100%;
+}
+.banner-btn{
+    margin-top: 20px;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+#banner-btn{
+    background: #4EC5F7;
+}
+
+/*  We are gamer section*/
+
+.gamer-main-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 500px;
+    margin-bottom: 500px;
+    /* background-color: #F948B2; */
+}
+.gamer-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    /* align-items: center; */
+}
+.gamer-left-bar{
+    /* margin-right: 100px;
+    margin-left: -50px; */
+}
+.gamer-left-image{
+    width: 100%;
+}
+.gamer-right-bar{
+    padding-top: 60px;
+    /* width: 40%; */
+    text-align: right;
+}
+.gamer-right-bar .gamer-title{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-right-bar .gamer-description{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        line-height: 30px;
+}
+.gamer-right-bar .gamer-btn{
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: 0;
+    color: #FFF;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.gamer-footer{
+    color: #534C64;
+    font-weight: 500;
+    padding-top: 24px;
+    line-height: 30px;
+}
+.unleash-text{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 45px;
+}

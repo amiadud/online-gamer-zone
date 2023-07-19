@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,300&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:576px) {
+    .nav-container, .menu-section{
+        flex-direction: column;
+        padding-top: 30px;
+        height: auto;
+        line-height: 10px;
+        padding-bottom: 30px;
+    }
+    .follow-us{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .banner-main-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-top: 50px;
+    }
+    .left-bar-item {
+        text-align: left;
+    }
+    .left-bar-item .play-like{
+        font-size: 30px;
+    }
+    .left-bar-item .goat{
+        font-size: 50px;
+    }
+    .right-bar-img{
+        width: 100%;
+        /* padding-left: 20px; */
+    }
+    .banner-right-bar{
+        padding: 20px;
+    }
+    /* gamer section sesponsive */
+
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-right-bar{
+        text-align: center;
+    }
+}
