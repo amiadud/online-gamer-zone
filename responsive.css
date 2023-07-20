@@ -114,3 +114,35 @@
         height: 550px;
     }
 }
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .left-bar-item .goat {
+        font-size: 65px;
+    }
+    .left-bar-item .play-like {
+        font-size: 35px;
+    }
+    .gamer-right-bar{
+        padding-right: 10px;
+    }
+    .gamer-right-bar .gamer-title{
+        font-size: 34px;
+    }
+    .unleash-text{
+        font-size: 14px;
+    }
+    .gamer-right-bar .gamer-description {
+        padding-top: 24px;
+        padding-bottom: 16px;
+        line-height: 27px;
+    }
+    .funny-box-container{
+        padding: 0px 20px;
+    }
+    .play-right-bar .girl-taking {
+        right: 30%;
+        top: 60%;
+        width: 23%;
+    }
+    
+}
